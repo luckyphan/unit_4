@@ -1,5 +1,6 @@
 package com.devmountain.noteApp.dtos;
 
+import com.devmountain.noteApp.entities.Note;
 import com.devmountain.noteApp.entities.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,8 +11,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 public class UserDto implements Serializable{
     private Long id;
     private String username;
